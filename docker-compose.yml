@@ -1,0 +1,7 @@
+version: '3'
+services:
+  builder:
+    build: .
+    command: sleep infinity
+    volumes:
+      - ./mount/:/usr/local/src/ipxe/
