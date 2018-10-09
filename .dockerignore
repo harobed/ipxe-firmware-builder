@@ -1,0 +1,9 @@
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+
+# Project
+README.md
