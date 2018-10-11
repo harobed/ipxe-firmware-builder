@@ -4,4 +4,5 @@ services:
     build: .
     command: sleep infinity
     volumes:
+      - ./build.sh:/build.sh
       - ./mount/:/usr/local/src/ipxe/
